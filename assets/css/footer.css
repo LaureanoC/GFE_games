@@ -1,0 +1,11 @@
+.footer {
+    background-color: black;
+    margin-top: 16.3rem;
+    padding: 2rem;
+}
+
+.footer__parrafo {
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+}

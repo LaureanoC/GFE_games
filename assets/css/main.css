@@ -1,0 +1,41 @@
+.main__container  {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:1.25rem;
+    max-width: 1920px;
+    padding:1.5rem 0;
+}
+
+.main__titulo {
+    font-size: 2rem;
+    flex-basis: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.main__titulo::before {
+    content:"Bienvenido, escoge un minijuego de conocimiento.";
+}
+
+.main__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    padding-bottom: 1rem ;
+    cursor:pointer;
+}
+
+.main__card:hover {
+    transition-duration: 0.3s;
+    box-shadow: 0px 0px 40px grey;
+    
+}
+
+.card__nombre {
+    font-size: 1.3rem;
+}
