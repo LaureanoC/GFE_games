@@ -1,0 +1,36 @@
+.puntuacion__container {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+    padding:1.5rem 0;
+    font-size: 1.4rem;
+    color: black;
+}
+
+.puntuacion__numero {
+    color:#009E2D
+}
+
+.intentos__numero {
+    animation-name: colorPalette;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function:ease;
+}
+
+@keyframes colorPalette {
+    
+	0% {
+        color:black;
+		
+	}
+	
+	100% {
+		color: rgb(255, 0, 0);
+	}
+	
+}
+

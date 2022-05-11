@@ -1,0 +1,50 @@
+.juegof {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    gap:1.25rem;
+    max-width: 1920px;
+    padding:1.5rem 0;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.juegof__img{
+
+    border: 5px solid black;
+    opacity: 10%;
+}
+
+.juegof__opciones {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: space-between;
+    
+
+}
+
+.juegof__frase {
+    font-size: 2rem;
+   
+}
+
+.juegof__opcion {
+    cursor: pointer;
+}
+
+.juegof__opcion:hover {
+    
+    position: relative;
+    transition: 0.3s;
+    font-size: 1.7rem;
+}
+
+.juegof__opcion:hover::after {
+    content: "   <";
+    font-weight: 700;
+    color:#2A7AE4;
+}
+
+

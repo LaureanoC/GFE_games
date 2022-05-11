@@ -7,3 +7,11 @@ html {
     line-height: 1rem;
     scroll-behavior: smooth;
 }
+
+img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+
+}

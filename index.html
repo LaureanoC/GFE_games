@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/juegof.css">
+    <link rel="stylesheet" href="assets/css/puntuacion.css">
+    <link rel="stylesheet" href="assets/css/return.css">
+
     <title>Jefesito Games</title>
 </head>
 <body>
@@ -22,6 +26,27 @@
       
     </main>
 
+    <section class ="juegof">
+        <img class = "juegof__img" src = "assets/img/campeon300x300.png">
+        <div class ="juegof__opciones">
+            <p class="juegof__frase">Alguna vez tuvimos otro nombre, ahora somos los Darkin</p>
+            <p class="juegof__opcion">Yasuo</p>
+            <p class="juegof__opcion">Aatrox</p>
+            <p class="juegof__opcion">Yone</p>
+            <p class="juegof__opcion">Mordekaiser</p>
+        </div>
+    </section>
+    <section class ="puntuacion">
+        <div class ="puntuacion__container">
+            <p>Puntuación <span class="puntuacion__numero">1000</span></p>
+            <p class ="puntuacion__intentos">Intentos <span class ="intentos__numero">1/3</span> </p>
+        </div>
+    </section>
+    
+    <section class = "return">
+        <p class="volverMenu">Volver al menu principal</p>
+    </section>
+    
     <footer class="footer">
             <p class="footer__parrafo">Desarrollado por <a class="parrafo__link" href="https://laureanoc.github.io/Mi-portafolio/">Laureano Neyén Chaves</a></p>
             <a href = "https://www.linkedin.com/in/laureano-neyén-chaves/"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -31,5 +56,6 @@
     </footer>
 
     <script src="js/crearInicio.js"></script>
+    <script src="js/controlador-minijuegos.js"></script>
 </body>
 </html>

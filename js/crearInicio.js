@@ -27,7 +27,7 @@ const crearInicio = () => {
     const img1 = "https://res.cloudinary.com/laureano/image/upload/v1652248330/Jefesito%20Games/med-yasuo_ccbiuc.png"
     const img2 = "https://res.cloudinary.com/laureano/image/upload/v1652248330/Jefesito%20Games/med-teemo_r0cj0e.png";
     const img3 = "https://res.cloudinary.com/laureano/image/upload/v1652248328/Jefesito%20Games/med-riven_vrkpfi.png"
-
+    //const img3 = "assets/img/Aatrox/parte-aatrox.png"
     const card1 = crearCardInicio(img1,"Campeón por frase");
     const card2 = crearCardInicio(img2, "Campeón por imagen");
     const card3 = crearCardInicio(img3, "Campeón por audio");
@@ -40,4 +40,5 @@ const crearInicio = () => {
 
 }
 
-crearInicio ();
+
+

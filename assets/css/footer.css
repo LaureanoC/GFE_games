@@ -10,7 +10,6 @@
 
 }
 
-
 .footer__parrafo {
     color: white;
     
@@ -19,6 +18,10 @@
 
 .fa-brands {
     color:white;
+}
+
+.fa-brands:hover, .parrafo__link:hover {
+    transition: 1s;
 }
 
 .fa-linkedin-in:hover  {

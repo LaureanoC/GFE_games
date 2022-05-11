@@ -1,0 +1,22 @@
+{
+    "campeon":[
+
+        {
+            "nombre":"Aatrox",
+             "frases":[
+                 "No soy un rey, no soy un dios, soy algo... peor...",
+                 "Alguna vez tuvimos otro nombre, ahora somos los Darkin",
+                 "Insectos, el Destructor de Mundos ha llegado",
+                 "¡No besaré el suelo, ni dejaré que me usen como una herramienta! ¡Estoy condenado, pero haré de nuevo este mundo a mí oscura semejanza!"
+             ],
+             "imagen": "assets/img/Aatrox/med-aatrox.png",
+             "parteImagen":"assets/img/Aatrox/parte-aatrox.png",
+             "audios":[
+                 "audiomp3"
+             ]
+             
+        }
+
+
+    ]
+}
