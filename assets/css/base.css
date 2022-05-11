@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300;400;700&display=swap');
 
 html {
-    font-family:'Radio Canada', sans-serif;;
+    font-family:'Radio Canada', sans-serif;
+    background-color: #FFFFFF;
+    color:#464646;
+    line-height: 1rem;
+    scroll-behavior: smooth;
 }

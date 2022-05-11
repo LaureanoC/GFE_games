@@ -6,9 +6,12 @@
     gap:1.25rem;
     max-width: 1920px;
     padding:1.5rem 0;
+    font-size: 1.2rem;
+    color: black;
 }
 
 .header__nombre::before {
+    
     font-weight: 700;
     content: "Jefesito Games";
 }

@@ -1,11 +1,41 @@
 .footer {
-    background-color: black;
-    margin-top: 16.3rem;
-    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.2rem;
+    margin-top: 16rem;
+    background-color: #2E2E33;
+    padding: 2.2rem;
+    font-size: 1.4rem;
+
 }
+
 
 .footer__parrafo {
     color: white;
-    font-size: 1.4rem;
+    
     text-align: center;
+}
+
+.fa-brands {
+    color:white;
+}
+
+.fa-linkedin-in:hover  {
+    color:rgb(41, 106, 226);
+    text-shadow: 5px 5px 5px black;
+}
+
+.fa-instagram:hover  {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-shadow: 5px 5px 5px black;
+}
+
+.fa-github:hover, .parrafo__link:hover {
+    color:gray;
+    text-shadow: 5px 5px 5px black;
 }
