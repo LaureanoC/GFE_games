@@ -1,4 +1,4 @@
-import campeon from "/db.json" assert { type: "json" };
+import campeon from "../db.json" assert { type: "json" };
 
 import { inicioServicios } from "./crearInicio.js";
 
