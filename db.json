@@ -145,10 +145,10 @@
         {
             "nombre":"Amumu",
             "frases":[
-                "Pensé que nunca me escogerías",
-                "Vamos a buscar amigos",
-                "Juega conmigo",
-                "Seremos amigos para siempre"
+                "Pensé que nunca me escogerías.",
+                "Vamos a buscar amigos.",
+                "Juega conmigo.",
+                "Seremos amigos para siempre."
             ],
             "imagen": [
                 [
@@ -173,10 +173,10 @@
         {
             "nombre":"Anivia",
             "frases":[
-                "Hay un significado en cada copo de nieve",
-                "Pobres criaturas, confinadas por una única vida",
-                "¿El huevo o la gallina? En realidad, yo llegué primero",
-                "Renaceré"
+                "Hay un significado en cada copo de nieve.",
+                "Pobres criaturas, confinadas por una única vida.",
+                "¿El huevo o la gallina? En realidad, yo llegué primero.",
+                "Renaceré."
             ],
             "imagen": [
                 [
@@ -224,7 +224,267 @@
                 "https://static.wikia.nocookie.net/leagueoflegends/images/3/3f/Annie_0026_es_MX.ogg/revision/latest?cb=20190104194544&path-prefix=es",
                 "https://static.wikia.nocookie.net/leagueoflegends/images/0/0b/Annie_0047_es_MX.ogg/revision/latest?cb=20190104194559&path-prefix=es"
             ]
+        },
+        {
+            "nombre":"Aphelios",
+            "frases":[
+                "No estás solo, recuerda nuestra promesa.",
+                "Estoy contigo… brillando sobre ti.",
+                "Cada uno de nosotros… es una ofrenda.",
+                "Mientras más brille mi luz, más poderosa será tu sombra."
+            ],
+
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652358545/Jefesito%20Games/Aphelios/med-aphelios_dfoxkw.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652358545/Jefesito%20Games/Aphelios/parte-aphelios_yfzjrc.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652358545/Jefesito%20Games/Aphelios/med-apheliosbestialunar_mvfxri.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652358545/Jefesito%20Games/Aphelios/parte-apheliosbestialunar_xsglaw.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/6/67/Aphelios_Original_MovimientoEst%C3%A1ndar_6_es_MX.ogg/revision/latest?cb=20200713041930&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/5/5e/Aphelios_Original_MovimientoEst%C3%A1ndar_3_es_MX.ogg/revision/latest?cb=20200713041924&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/a/a5/Aphelios_Original_MovimientoEst%C3%A1ndar_5_es_MX.ogg/revision/latest?cb=20200713041928&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/6/68/Aphelios_Original_MovimientoEst%C3%A1ndar_7_es_MX.ogg/revision/latest?cb=20200713041932&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Ashe",
+            "frases":[
+                "Todo el mundo en una flecha.",
+                "Cobarde, ojalá mueras con los ojos cerrados!",
+                "Avarosa me guía.",
+                "Creen que soy fría. He visto cosas que los sureños no pueden ni imaginar."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652358883/Jefesito%20Games/Ashe/med-ashe_jvus5r.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652358883/Jefesito%20Games/Ashe/parte-ashe_vfczew.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652358883/Jefesito%20Games/Ashe/med-ashecelestial_jyf2yo.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652358883/Jefesito%20Games/Ashe/parte-ashecelestial_ujnc03.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/2/25/Ashe_-_Seleccion_LATAM.ogg/revision/latest?cb=20200309033647&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/3/3f/Ashe_-_Bloqueo_LATAM.ogg/revision/latest?cb=20200309033709&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/0/05/Ashe_Frase0018_es_MX.ogg/revision/latest?cb=20200326024720&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/1/17/Ashe_Frase0140_es_MX.ogg/revision/latest?cb=20200326031554&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"",
+            "frases":[
+                "Me llaman cometa. Me llaman dragón. No tienen palabras para mi forma verdadera.",
+                "En un cosmos en contante cambio, un mundo estático me resulta... interesante.",
+                "Naturalmente.",
+                "Hmmm... trágico."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652359202/Jefesito%20Games/Aurelion%20Sol/med-aurelionsol_ndfjek.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652359202/Jefesito%20Games/Aurelion%20Sol/parte-aurelionsol_sd6tyb.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652359202/Jefesito%20Games/Aurelion%20Sol/med-aurelionsolmecha_z3dk2v.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652359202/Jefesito%20Games/Aurelion%20Sol/parte-aurelionsolmecha_d12m2e.png"
+                ]
+            ],
+            
+            "audios":[
+               "https://static.wikia.nocookie.net/leagueoflegends/images/0/03/Aurelion_Sol_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220222920&path-prefix=es",
+               "https://static.wikia.nocookie.net/leagueoflegends/images/2/25/Aurelion_Sol_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220222918&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Azir",
+            "frases":[
+                "Shurima, tu emperador ha vuelto!",
+                "Su emperador regresará."
+               
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652359501/Jefesito%20Games/Azir/med-azir_e0m2um.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652359500/Jefesito%20Games/Azir/parte-azir_zye23q.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652359501/Jefesito%20Games/Azir/med-azirreinosguerra_hltsot.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652359500/Jefesito%20Games/Azir/parte-azirreinosguerra_hzm7ev.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/4/49/Azir_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220222925&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/7/7f/Azir_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220222923&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Bardo",
+            "frases":[
+                "*Campanada de meeps*"
+            ],
+
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652359859/Jefesito%20Games/Bardo/med-bardo_mbtp88.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652359859/Jefesito%20Games/Bardo/parte-bardo_ecghj7.png"
+                    
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652359859/Jefesito%20Games/Bardo/med-bardotaza_exodwe.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652359860/Jefesito%20Games/Bardo/parte-bardotaza_y8bu82.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/1/1f/Bardo_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220222929&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/7/7d/Bardo_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220222927&path-prefix=es"
+                
+            ]
+        },
+
+        {
+            "nombre":"Blitzcrank",
+            "frases":[
+                "Encendido y listo para el servicio.",
+                "El hueso no es buena opción.",
+                "Soy el 'ole' de 'golem'. Era un chiste. Los demás golems lo encuentran bastante gracioso.",
+                "El metal es más duro que la carne."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652360108/Jefesito%20Games/Blitzcrank/med-blitzcrank_gpcnlu.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652360108/Jefesito%20Games/Blitzcrank/parte-blitzcrank_em4gkp.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652360108/Jefesito%20Games/Blitzcrank/med-blitzcrankgatito_mjtlfs.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652360108/Jefesito%20Games/Blitzcrank/parte-blitzcrankgatito_iowack.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/b/b4/Blitzcrank_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220222933&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/e/ed/Blitzcrank_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220222931&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/b/b3/Blitzcrank_0013_es_MX.ogg/revision/latest?cb=20210609013158&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/a/aa/Blitzcrank_0006_es_MX.ogg/revision/latest?cb=20210609013141&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Brand",
+            "frases":[
+                "¿Y si quemamos el mundo?"
+            ],
+
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652360366/Jefesito%20Games/Brand/med-brand_zirpb6.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652360365/Jefesito%20Games/Brand/parte-brand_w8rwot.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652360365/Jefesito%20Games/Brand/med-brandgalan_jnemj4.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652360366/Jefesito%20Games/Brand/parte-brandgalan_d5apxs.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/e/ec/Brand_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220222937&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/9/9c/Brand_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220222935&path-prefix=es"
+                
+            ]
+        },
+
+        {
+            "nombre":"Braum",
+            "frases":[
+                "El corazón es el músculo más fuerte.",
+                "¡Ten mucho cuidado, amiguito!"
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652361104/Jefesito%20Games/Braum/med-braum_geqrhm.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652361104/Jefesito%20Games/Braum/parte-braum_y8luak.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652361104/Jefesito%20Games/Braum/med-braumsanta_gdnwo2.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652361104/Jefesito%20Games/Braum/parte-braumsanta_dqddxm.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/6/63/Braum_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220222941&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/e/ed/Braum_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220222939&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Caitlyn",
+            "frases":[
+                "Este caso es para mí.",
+                "Los tengo en la mira."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652361721/Jefesito%20Games/Caitlyn/med-caitlyn_m0warp.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652361721/Jefesito%20Games/Caitlyn/parte-caitlyn_hegyoe.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652361722/Jefesito%20Games/Caitlyn/med-caitlynarcadia_ytnvc5.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652361721/Jefesito%20Games/Caitlyn/parte-caitlynarcadia_ae53tv.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/c/ce/Caitlyn_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220222945&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/3/33/Caitlyn_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220222943&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Camille",
+            "frases":[
+                "La precisión es la diferencia entre un carnicero y un cirujano.",
+                "Compromiso es otra palabra para fracaso."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652361946/Jefesito%20Games/Camille/med-camille_k9zfoj.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652361946/Jefesito%20Games/Camille/parte-camille_vetqvd.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652361946/Jefesito%20Games/Camille/med-camillerub_sj6vmg.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652361946/Jefesito%20Games/Camille/parte-camillerub_pmvhrg.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/f/f4/Camille_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220222949&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/0/01/Camille_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220222947&path-prefix=es"
+            ]
         }
+
+
 
 
 
