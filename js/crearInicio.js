@@ -1,3 +1,10 @@
+import { juegofServicios } from "./crearJuegoF.js";
+import { listaCampeones } from "./menu.js";
+
+const eliminarInicio = () => {
+    const main = document.querySelector("[data-main]");
+    main.innerHTML = "";
+}
 
 const crearCardInicio = (imgurl,seccion) => {
 
@@ -27,10 +34,28 @@ const crearInicio = () => {
     const img1 = "https://res.cloudinary.com/laureano/image/upload/v1652248330/Jefesito%20Games/med-yasuo_ccbiuc.png"
     const img2 = "https://res.cloudinary.com/laureano/image/upload/v1652248330/Jefesito%20Games/med-teemo_r0cj0e.png";
     const img3 = "https://res.cloudinary.com/laureano/image/upload/v1652248328/Jefesito%20Games/med-riven_vrkpfi.png"
-    //const img3 = "assets/img/Aatrox/parte-aatrox.png"
+   
+
+// EVENTOS DE CADA CARD
+
+
     const card1 = crearCardInicio(img1,"Campeón por frase");
+    card1.id = "porfrase";
+    card1.addEventListener("click", ()=>  {
+        eliminarInicio();
+        console.log(listaCampeones);
+        juegofServicios.crearJuegoF();
+        juegofServicios.crearPuntuacion();
+        juegofServicios.crearVolver();
+    })
+
     const card2 = crearCardInicio(img2, "Campeón por imagen");
+    card2.id = "porimagen"
     const card3 = crearCardInicio(img3, "Campeón por audio");
+    card3.id = "poraudio";
+
+
+
 
     container.appendChild(titulo);
     container.appendChild(card1);
@@ -40,5 +65,6 @@ const crearInicio = () => {
 
 }
 
-
-
+export const inicioServicios = {
+    crearCardInicio, crearInicio
+}

@@ -1,0 +1,119 @@
+{
+    "campeon":[
+
+        {
+            "nombre":"Aatrox",
+             "frases":[
+                 "No soy un rey, no soy un dios, soy algo... peor...",
+                 "Alguna vez tuvimos otro nombre, ahora somos los Darkin.",
+                 "Insectos, el Destructor de Mundos ha llegado.",
+                 "¡No besaré el suelo, ni dejaré que me usen como una herramienta! ¡Estoy condenado, pero haré de nuevo este mundo a mí oscura semejanza!"
+             ],
+             "imagen": [
+                        [
+                        "https://res.cloudinary.com/laureano/image/upload/v1652318106/Jefesito%20Games/Aatrox/med-aatrox_m88poy.png",
+                        "https://res.cloudinary.com/laureano/image/upload/v1652318105/Jefesito%20Games/Aatrox/parte-aatrox_ut52y8.png"
+                        ],
+
+                        [
+                            "https://res.cloudinary.com/laureano/image/upload/v1652319298/Jefesito%20Games/Aatrox/med-aatroxlunasangre_hxpb55.png",
+                            "https://res.cloudinary.com/laureano/image/upload/v1652319298/Jefesito%20Games/Aatrox/parte-aatroxlunasangre_voukdv.png"
+                        ]
+                    ],
+
+             "audios":[
+                 "https://static.wikia.nocookie.net/leagueoflegends/images/2/24/Aatrox_Selección_nuevo_es_MX.ogg/revision/latest?cb=20200716001636&path-prefix=es",
+                 "https://static.wikia.nocookie.net/leagueoflegends/images/f/f1/Aatrox_Original_MovimientoEst%C3%A1ndar_3_es_MX.ogg/revision/latest?cb=20200716001916&path-prefix=es",
+                 "https://static.wikia.nocookie.net/leagueoflegends/images/f/f0/Aatrox_Original_MovimientoEst%C3%A1ndar_19_es_MX.ogg/revision/latest?cb=20200716001949&path-prefix=es",
+                 "https://static.wikia.nocookie.net/leagueoflegends/images/d/d9/Aatrox_Original_R_1_es_MX.ogg/revision/latest?cb=20200716002357&path-prefix=es"
+             ]
+             
+        },
+
+        {
+            "nombre":"Ahri",
+            "frases":[
+                "Nadie se interpondrá en mi camino.",
+                "Vamos a divertirnos en serio.",
+                "Ven a probar suerte... si crees que juegas en mi liga *se ríe*.",
+                "Si quieres jugar conmigo... será mejor que conozcas bien el juego."
+            ],
+            "imagen": [
+                [
+                "https://res.cloudinary.com/laureano/image/upload/v1652318066/Jefesito%20Games/Ahri/med-ahri_hltyqs.png",
+                "https://res.cloudinary.com/laureano/image/upload/v1652318066/Jefesito%20Games/Ahri/parte-ahri_bsowed.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652319999/Jefesito%20Games/Ahri/med-ahribosque_fsicnw.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652319999/Jefesito%20Games/Ahri/parte-ahribosque_gjz3na.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/2/2f/Ahri_Original_Risa_0_es_MX.ogg/revision/latest?cb=20220303040837&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/1/11/Ahri_Original_Ataque_0_es_MX.ogg/revision/latest?cb=20220303040837&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/9/93/Ahri_Original_W_0_es_MX.ogg/revision/latest?cb=20220303040836&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/4/44/Ahri_Original_Chiste_1_es_MX.ogg/revision/latest?cb=20220303040837&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Akali",
+            "frases":[
+                "No pueden detenerme, digo, pueden intentarlo.",
+                "Que sea rápido.",
+                "Se te está acabando el tiempo para huir.",
+                "Haré que esto parezca magia."
+            ],
+            "imagen": [
+                [
+                "https://res.cloudinary.com/laureano/image/upload/v1652320253/Jefesito%20Games/Akali/med-akali_usv8lb.png",
+                "https://res.cloudinary.com/laureano/image/upload/v1652320254/Jefesito%20Games/Akali/parte-akali_irifz6.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652319999/Jefesito%20Games/Ahri/med-ahribosque_fsicnw.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652319999/Jefesito%20Games/Ahri/parte-ahribosque_gjz3na.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/5/5c/Akali_0005_es_MX.ogg/revision/latest?cb=20190103193411&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/5/5f/Akali_0013_es_MX.ogg/revision/latest?cb=20190103193417&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/7/77/Akali_0029_es_MX.ogg/revision/latest?cb=20190103193429&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/0/04/Akali_0016_es_MX.ogg/revision/latest?cb=20190103193419&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Akshan",
+            "frases":[
+                "Esta capa no cumple con las Normas de los Centinelas. Aunque tampoco el gancho. Ni el bumerán.",
+                "Un rufián suelto siempre será un rufián.",
+                "¡No rompo las reglas, las doblo! Solo un poquito.",
+                "Hablar no sirve de nada. Somos lo que hacemos."
+            ],
+            "imagen": [
+                [
+                "https://res.cloudinary.com/laureano/image/upload/v1652321448/Jefesito%20Games/Akshan/med-akshan_wuxv0x.png",
+                "https://res.cloudinary.com/laureano/image/upload/v1652321447/Jefesito%20Games/Akshan/parte-akshan_sv5bvm.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1652321452/Jefesito%20Games/Akshan/med-akshancyber_m2m3mc.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1652321447/Jefesito%20Games/Akshan/parte-akshancyber_gh2rpc.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/5/5c/Akali_0005_es_MX.ogg/revision/latest?cb=20190103193411&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/5/5f/Akali_0013_es_MX.ogg/revision/latest?cb=20190103193417&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/7/77/Akali_0029_es_MX.ogg/revision/latest?cb=20190103193429&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/0/04/Akali_0016_es_MX.ogg/revision/latest?cb=20190103193419&path-prefix=es"
+            ]
+        }
+
+
+    ]
+}
