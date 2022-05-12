@@ -4,6 +4,7 @@ import { listaCampeones } from "./menu.js";
 const eliminarInicio = () => {
     const main = document.querySelector("[data-main]");
     main.innerHTML = "";
+    main.classList.remove("easeOut");
 }
 
 const crearCardInicio = (imgurl,seccion) => {
@@ -42,12 +43,22 @@ const crearInicio = () => {
     const card1 = crearCardInicio(img1,"Campeón por frase");
     card1.id = "porfrase";
     card1.addEventListener("click", ()=>  {
+
+        const main = document.querySelector("[data-main]");
+        main.className = "easeOut";
+
+        setTimeout(()=> {
+        
         eliminarInicio();
         console.log(listaCampeones);
         juegofServicios.crearJuegoF();
         juegofServicios.crearPuntuacion();
         juegofServicios.crearVolver();
+        },1000);
     })
+        
+        
+    
 
     const card2 = crearCardInicio(img2, "Campeón por imagen");
     card2.id = "porimagen"

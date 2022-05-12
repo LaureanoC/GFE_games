@@ -4,6 +4,7 @@ import {listaCampeones} from "../js/menu.js"
 const eliminarJuegoF = () => {
 
     const main = document.querySelector("[data-main]");
+    main.className = "easeIn";
     main.innerHTML = "";
 
 }
@@ -34,7 +35,7 @@ const crearOpcion = (nombre) => {
 
     const opcion = document.createElement("p");
     opcion.className = "juegof__opcion";
-    opcion.innerHTML = `${nombre}`;
+    opcion.dataset.content = nombre;
     return opcion
 
 }
@@ -43,10 +44,19 @@ const crearVolver = () => {
     
     const section = document.createElement("section");
     section.className = "return";
-    section.innerHTML = `<p class="volverMenu">Volver al menu principal</p>`;
+    section.innerHTML = `<p class="volverMenu"></p>`;
     section.addEventListener("click", () => {
-        eliminarJuegoF();
-        inicioServicios.crearInicio();
+
+        const main = document.querySelector("[data-main]");
+        main.className = "easeOut";
+
+        setTimeout(()=> {
+
+            eliminarJuegoF();
+            inicioServicios.crearInicio();
+
+        }, 1000);
+        
     })
     const main = document.querySelector("[data-main]");
     main.appendChild(section);
@@ -55,6 +65,7 @@ const crearVolver = () => {
 const crearJuegoF = () => {
 
     const main = document.querySelector("[data-main]");
+    main.className = "easeIn"
     
     const section = document.createElement("section");
     section.className = "juegof";
@@ -68,7 +79,8 @@ const crearJuegoF = () => {
 
     const frase = document.createElement("p");
     frase.className = "juegof__frase";
-    frase.innerHTML = "La espada sombría es la mas mortifera";
+    frase.dataset.content = "La espada sombría es la mas mortifera"
+    
 
     const op1 = crearOpcion("Zed");
     const op2 = crearOpcion("Yasuo");

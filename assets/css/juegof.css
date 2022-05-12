@@ -32,23 +32,36 @@
    
 }
 
+.juegof__frase::before {
+    
+    content: attr(data-content);
+   
+}
+
 .juegof__opcion {
-    flex-basis: 100%;
+    flex-basis: 50%;
     text-align: center;
     cursor: pointer;
+    box-shadow: 5px 5px 4px rgb(150, 148, 148);
+    padding: 0.5rem;
+    margin: 0 auto;
+}
+
+.juegof__opcion::before {
+    content: attr(data-content);
 }
 
 .juegof__opcion:hover {
-    
-    position: relative;
-    transition: 0.3s;
-    font-size: 1.7rem;
+    transition: 1s;
+   background-color: #a1defc;
 }
 
-.juegof__opcion:hover::after {
-    content: "   <";
-    font-weight: 700;
-    color:#2A7AE4;
+.juegof__opcion:active {
+    
+   background-color: #2D435E;
+   color:white;
 }
+
+
 
 

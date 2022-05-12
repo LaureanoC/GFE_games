@@ -40,3 +40,44 @@
 .card__nombre {
     font-size: 1.3rem;
 }
+
+.easeOut {
+    animation-name: easeInicio;
+	animation-duration: 1s;
+	animation-direction: alternate;
+	animation-timing-function:ease;
+}
+
+.easeIn {
+    animation-name: easeJuego;
+	animation-duration: 1s;
+	animation-direction: alternate;
+	animation-timing-function:ease;
+}
+
+
+@keyframes easeJuego {
+    
+	0% {
+        opacity: 0%;
+		
+	}
+
+    100% {
+        opacity: 100%;
+    }
+}      
+
+@keyframes easeInicio {
+    
+	0% {
+        opacity: 100%;
+		
+	}
+
+    100% {
+        opacity: 0%;
+    }
+	
+	
+}

@@ -21,6 +21,20 @@
 	animation-timing-function:ease;
 }
 
+.intentos__numero::before {
+   
+    content: attr(data-content);
+
+}
+
+.intentos__numero {
+    animation-name: colorPalette;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function:ease;
+}
+
 @keyframes colorPalette {
     
 	0% {
