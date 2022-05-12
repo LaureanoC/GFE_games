@@ -96,7 +96,6 @@ const verificarOpciones = (nombre,campeones) => {
 
 const crearJuegoF = (lista) => {
     
-
     let numcampeonCorrecto = sorteoServicio.seleccionarCampeonAleatorio(lista);
     let campeonCorrecto = lista[numcampeonCorrecto];
     let numFrase = sorteoServicio.seleccionarFraseAleatoria(campeonCorrecto);
@@ -115,8 +114,6 @@ const crearJuegoF = (lista) => {
         }
     }
 
-
-    
     campeones = sorteoServicio.mezclarLista(campeones);
     
 
@@ -155,6 +152,11 @@ const crearJuegoF = (lista) => {
     section.appendChild(img);
     section.appendChild(contenedor);
     main.appendChild(section);
+
+    const opcionCorrecta = document.querySelector(`[data-content="${campeonCorrecto.nombre}"]`);
+    opcionCorrecta.addEventListener("click", ()=> {
+        console.log("Esta el la opcion correcta");
+    })
 }
 
 export const juegofServicios = {
