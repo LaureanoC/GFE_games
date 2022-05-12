@@ -1,5 +1,6 @@
 import { juegofServicios } from "./crearJuegoF.js";
 import { listaCampeones } from "./menu.js";
+import { sorteoServicio } from "./sortearCampeones.js";
 
 const eliminarInicio = () => {
     const main = document.querySelector("[data-main]");
@@ -50,8 +51,8 @@ const crearInicio = () => {
         setTimeout(()=> {
         
         eliminarInicio();
-        console.log(listaCampeones);
-        juegofServicios.crearJuegoF();
+        let lista = sorteoServicio.mezclarLista(listaCampeones);
+        juegofServicios.crearJuegoF(lista);
         juegofServicios.crearPuntuacion();
         juegofServicios.crearVolver();
         },1000);
