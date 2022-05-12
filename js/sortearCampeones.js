@@ -8,13 +8,6 @@ const seleccionarCampeonAleatorio = (lista) => {
     
 }
 
-const seleccionarNombreAleatorioIncorrecto = (lista) => {
-
-    let x = seleccionarCampeonAleatorio(lista);
-    return lista[x].nombre;
-    
-    
-}
 
 const seleccionarFraseAleatoria = (campeon) => {
 
@@ -30,5 +23,5 @@ const sortearOpciones = (n) => {
 
 export const sorteoServicio = {
 
-    mezclarLista, seleccionarCampeonAleatorio, seleccionarFraseAleatoria, sortearOpciones,seleccionarNombreAleatorioIncorrecto
+    mezclarLista, seleccionarCampeonAleatorio, seleccionarFraseAleatoria, sortearOpciones
 }

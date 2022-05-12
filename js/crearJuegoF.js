@@ -55,6 +55,7 @@ const crearVolver = () => {
 
             eliminarJuegoF();
             inicioServicios.crearInicio();
+            
 
         }, 1000);
         
@@ -63,55 +64,61 @@ const crearVolver = () => {
     main.appendChild(section);
 }
 
-const actualizarListaFrase = (lista,numCamp,fraseC) => {
+const actualizarListaFrase = (l,numCamp,fraseC) => {
 
-    lista[numCamp].frases.forEach((frase)=> {
-        //console.log(frase);
-        //console.log(fraseC);
+    l[numCamp].frases.forEach((frase)=> {
+        
         if(fraseC == frase){
-            let index = lista[numCamp].frases.indexOf(frase);  
-            //console.log(lista[numCamp].frases);
-            //console.log(index);
-            lista[numCamp].frases.splice(index,1);
-            //console.log(lista[numCamp].frases);
-            //console.log(lista);
+            let index = l[numCamp].frases.indexOf(frase);  
+            
+            l[numCamp].frases.splice(index,1);
+           
         }
     })
 
-    console.log("Frases length", lista[numCamp].frases.length);
-
-    if (lista[numCamp].frases.length == 0){
-        console.log("true");
-        lista.splice(numCamp,1);
+    if (l[numCamp].frases.length == 0){
+        l.splice(numCamp,1);
     }
 
 }
 
+const verificarOpciones = (nombre,campeones) => {
+
+    for(let i=0; i<campeones.length; i++){
+        if(nombre == campeones[i]){
+            return false;
+        }
+    }
+
+    return true
+
+}
+
 const crearJuegoF = (lista) => {
+    
 
     let numcampeonCorrecto = sorteoServicio.seleccionarCampeonAleatorio(lista);
     let campeonCorrecto = lista[numcampeonCorrecto];
-    //console.log(lista);
-    //console.log(numcampeonCorrecto);
-    //console.log(lista[numcampeonCorrecto]);
     let numFrase = sorteoServicio.seleccionarFraseAleatoria(campeonCorrecto);
-    //console.log(campeonCorrecto);
-    //console.log(numFrase);
     let fraseCampeonCorrecto = campeonCorrecto.frases[numFrase];
-    //console.log("La frase correcta es ", fraseCampeonCorrecto);
-    actualizarListaFrase(lista,numcampeonCorrecto,fraseCampeonCorrecto);
-    console.log(numcampeonCorrecto);
-    console.log("Lista actualizada", lista);
     
-
+    actualizarListaFrase(lista,numcampeonCorrecto,fraseCampeonCorrecto);
+   
     let campeones = [campeonCorrecto.nombre];
+    
+    while(campeones.length<4){
+        let nombre = lista[Math.floor(Math.random()*lista.length)].nombre;
 
-    for (let i=0; i<3; i++){
-        let nombre = sorteoServicio.seleccionarNombreAleatorioIncorrecto(lista);
-        campeones.push(nombre);
+        if(verificarOpciones(nombre,campeones) && campeonCorrecto.nombre != nombre){
+            campeones.push(nombre);
+            
+        }
     }
 
-    console.log(campeones)
+
+    
+    campeones = sorteoServicio.mezclarLista(campeones);
+    
 
     const main = document.querySelector("[data-main]");
     main.className = "easeIn"
@@ -129,17 +136,21 @@ const crearJuegoF = (lista) => {
 
     const frase = document.createElement("p");
     frase.className = "juegof__frase";
-    frase.dataset.content = "La espada sombría es la mas mortifera"
+    frase.dataset.content = fraseCampeonCorrecto
     
 
    
-
-   
-    const op = crearOpcion(campeonCorrecto.nombre);
+    const op1 = crearOpcion(campeones[0]);
+    const op2 = crearOpcion(campeones[1]);
+    const op3 = crearOpcion(campeones[2]);
+    const op4 = crearOpcion(campeones[3]);
     
 
     contenedor.appendChild(frase);
-    contenedor.appendChild(op);
+    contenedor.appendChild(op1);
+    contenedor.appendChild(op2);
+    contenedor.appendChild(op3);
+    contenedor.appendChild(op4);
     
     section.appendChild(img);
     section.appendChild(contenedor);

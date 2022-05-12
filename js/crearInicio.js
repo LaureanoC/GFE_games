@@ -51,7 +51,11 @@ const crearInicio = () => {
         setTimeout(()=> {
         
         eliminarInicio();
-        let lista = sorteoServicio.mezclarLista(listaCampeones);
+        let lista = [];
+        listaCampeones.forEach((campeon)=> {
+            lista.push(campeon);
+        })
+        lista = sorteoServicio.mezclarLista(lista);
         juegofServicios.crearJuegoF(lista);
         juegofServicios.crearPuntuacion();
         juegofServicios.crearVolver();

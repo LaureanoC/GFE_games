@@ -13,7 +13,11 @@ console.log(listaCampeones[0].audios[0]);
 
 const pp = () => {
 
+   
     inicioServicios.crearInicio();
+    console.log("Programa terminado");
+
+   
 }
 
 pp();
