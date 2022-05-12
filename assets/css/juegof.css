@@ -18,19 +18,23 @@
 .juegof__opciones {
 
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 1.5rem;
-    justify-content: space-between;
-    
 
 }
 
 .juegof__frase {
     font-size: 2rem;
+    flex-basis: 100%;
+    text-align: center;
    
 }
 
 .juegof__opcion {
+    flex-basis: 100%;
+    text-align: center;
     cursor: pointer;
 }
 

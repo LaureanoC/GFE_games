@@ -1,5 +1,5 @@
 import { inicioServicios } from "./crearInicio.js";
-
+import {listaCampeones} from "../js/menu.js"
 
 const eliminarJuegoF = () => {
 
