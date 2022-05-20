@@ -10,32 +10,30 @@
 }
 
 .juegof__img{
-
     border: 5px solid black;
     opacity: 10%;
 }
 
-.juegof__opciones {
+.juegof__imgCorrecta{
+    transition: 1.5s;
+}
 
+.juegof__opciones {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.5rem;
-
 }
 
 .juegof__frase {
     font-size: 2rem;
     flex-basis: 100%;
-    text-align: center;
-   
+    text-align: center;  
 }
 
 .juegof__frase::before {
-    
     content: attr(data-content);
-   
 }
 
 .juegof__opcion {
@@ -47,12 +45,21 @@
     margin: 0 auto;
 }
 
+.opcion__deshabilitada {
+    pointer-events:none;
+}
+
+.opcion__acertada{
+    transition: 1.5s;
+    background-color: rgb(78, 214, 15);
+}
+
 .juegof__opcion::before {
     content: attr(data-content);
 }
 
 .juegof__opcion:hover {
-    transition: 1s;
+    transition: 0.4s;
    background-color: #a1defc;
 }
 

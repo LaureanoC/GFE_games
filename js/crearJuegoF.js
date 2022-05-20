@@ -2,6 +2,9 @@ import { inicioServicios } from "./crearInicio.js";
 import { listaCampeones } from "./menu.js";
 import { sorteoServicio } from "./sortearCampeones.js";
 
+var puntajeActual = 0;
+var cantidadError = 0;
+
 const eliminarJuegoF = () => {
 
     const main = document.querySelector("[data-main]");
@@ -22,7 +25,7 @@ const crearPuntuacion = () => {
 
     const p2 = document.createElement("p");
     p2.className = "puntuacion__intentos";
-    p2.innerHTML = `Intentos <span class ="intentos__numero">1/3</span>`;
+    p2.innerHTML = `Intentos <span class ="intentos__numero">0/3</span>`;
 
     const main = document.querySelector("[data-main]");
 
@@ -32,11 +35,52 @@ const crearPuntuacion = () => {
     main.appendChild(section);
 }
 
-const crearOpcion = (nombre) => {
+
+const crearOpcion = (nombre, nombreCorrecto, imgCampeonCorrecto) => {
 
     const opcion = document.createElement("p");
     opcion.className = "juegof__opcion";
     opcion.dataset.content = nombre;
+
+    if (nombre == nombreCorrecto){
+        opcion.addEventListener("click", ()=> {
+        
+            puntajeActual = puntajeActual + 100;
+
+            const puntuador = document.querySelector(".puntuacion__numero");
+            puntuador.innerHTML = puntajeActual;
+
+            opcion.classList.add("opcion__acertada");
+
+            const opciones = document.querySelectorAll(".juegof__opcion");
+            
+                opciones.forEach((opcion)=>{
+                   
+                    opcion.classList.add("opcion__deshabilitada"); 
+                })
+
+            const img = document.querySelector(".juegof__img");
+            img.classList.remove("juegof__img");
+            img.classList.add("juegof__imgCorrecta");
+            img.src = imgCampeonCorrecto;
+            
+        
+        }, {once: true})
+    }else {
+        opcion.addEventListener("click", ()=> {
+
+            if (cantidadError <3){
+
+                cantidadError++;
+                const error = document.querySelector(".intentos__numero")
+                error.innerHTML = `${cantidadError}/3`;
+            } else {
+
+            }
+        })
+    }
+
+
     return opcion
 
 }
@@ -83,23 +127,36 @@ const actualizarListaFrase = (l,numCamp,fraseC) => {
 }
 
 const verificarOpciones = (nombre,campeones) => {
-
     for(let i=0; i<campeones.length; i++){
         if(nombre == campeones[i]){
             return false;
         }
     }
-
     return true
+}
+
+const puntajeMax = (x,y) => {
+
+    if(x>y)
+        return true
+     else return false
 
 }
 
-const crearJuegoF = (lista) => {
+const crearJuegoF = (lista,jugando) => {
     
+    if (!jugando){
+        puntajeActual = 0;
+        cantidadError = 0;
+    }
+
+
     let numcampeonCorrecto = sorteoServicio.seleccionarCampeonAleatorio(lista);
     let campeonCorrecto = lista[numcampeonCorrecto];
     let numFrase = sorteoServicio.seleccionarFraseAleatoria(campeonCorrecto);
     let fraseCampeonCorrecto = campeonCorrecto.frases[numFrase];
+    let imgCampeonCorrecto = campeonCorrecto.imagen[0][0];
+    console.log(imgCampeonCorrecto);
     
     actualizarListaFrase(lista,numcampeonCorrecto,fraseCampeonCorrecto);
    
@@ -133,16 +190,13 @@ const crearJuegoF = (lista) => {
 
     const frase = document.createElement("p");
     frase.className = "juegof__frase";
-    frase.dataset.content = fraseCampeonCorrecto
+    frase.dataset.content = fraseCampeonCorrecto;
+  
+    const op1 = crearOpcion(campeones[0], campeonCorrecto.nombre, imgCampeonCorrecto);
+    const op2 = crearOpcion(campeones[1], campeonCorrecto.nombre, imgCampeonCorrecto);
+    const op3 = crearOpcion(campeones[2], campeonCorrecto.nombre, imgCampeonCorrecto);
+    const op4 = crearOpcion(campeones[3], campeonCorrecto.nombre, imgCampeonCorrecto);
     
-
-   
-    const op1 = crearOpcion(campeones[0]);
-    const op2 = crearOpcion(campeones[1]);
-    const op3 = crearOpcion(campeones[2]);
-    const op4 = crearOpcion(campeones[3]);
-    
-
     contenedor.appendChild(frase);
     contenedor.appendChild(op1);
     contenedor.appendChild(op2);
@@ -153,10 +207,6 @@ const crearJuegoF = (lista) => {
     section.appendChild(contenedor);
     main.appendChild(section);
 
-    const opcionCorrecta = document.querySelector(`[data-content="${campeonCorrecto.nombre}"]`);
-    opcionCorrecta.addEventListener("click", ()=> {
-        console.log("Esta el la opcion correcta");
-    })
 }
 
 export const juegofServicios = {

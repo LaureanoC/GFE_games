@@ -55,8 +55,9 @@ const crearInicio = () => {
         listaCampeones.forEach((campeon)=> {
             lista.push(campeon);
         })
+        var jugando = false;
         lista = sorteoServicio.mezclarLista(lista);
-        juegofServicios.crearJuegoF(lista);
+        juegofServicios.crearJuegoF(lista,jugando);
         juegofServicios.crearPuntuacion();
         juegofServicios.crearVolver();
         },1000);
