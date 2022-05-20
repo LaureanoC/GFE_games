@@ -54,6 +54,12 @@
     background-color: rgb(78, 214, 15);
 }
 
+.opcion__erronea{
+    transition: 1.5s;
+    opacity: 25%;
+    background-color: rgb(255, 157, 157);
+}
+
 .juegof__opcion::before {
     content: attr(data-content);
 }
@@ -67,6 +73,27 @@
     
    background-color: #2D435E;
    color:white;
+}
+
+.siguiente {
+    align-self: center;
+    font-size: 3rem;
+    opacity: 10%;
+    
+}
+
+.siguiente__hab{
+
+    transition: 1s;
+    opacity: 100%;
+    cursor: pointer;
+    text-shadow: 5px 5px 4px rgb(150, 148, 148);
+}
+
+.siguiente__hab:hover {
+    transition: 0.4s;
+    text-shadow: 5px 5px 4px rgb(255, 255, 255);
+    color: #a1defc;
 }
 
 

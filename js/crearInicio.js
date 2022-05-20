@@ -58,8 +58,8 @@ const crearInicio = () => {
         var jugando = false;
         lista = sorteoServicio.mezclarLista(lista);
         juegofServicios.crearJuegoF(lista,jugando);
-        juegofServicios.crearPuntuacion();
-        juegofServicios.crearVolver();
+        
+       
         },1000);
     })
         

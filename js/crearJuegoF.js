@@ -30,13 +30,16 @@ const crearPuntuacion = () => {
     const main = document.querySelector("[data-main]");
 
     div.appendChild(p);
+    
     div.appendChild(p2);
+   
     section.appendChild(div);
     main.appendChild(section);
 }
 
 
-const crearOpcion = (nombre, nombreCorrecto, imgCampeonCorrecto) => {
+
+const crearOpcion = (nombre, nombreCorrecto, imgCampeonCorrecto,lista,jugando) => {
 
     const opcion = document.createElement("p");
     opcion.className = "juegof__opcion";
@@ -63,18 +66,45 @@ const crearOpcion = (nombre, nombreCorrecto, imgCampeonCorrecto) => {
             img.classList.remove("juegof__img");
             img.classList.add("juegof__imgCorrecta");
             img.src = imgCampeonCorrecto;
+
+            const siguiente = document.querySelector(".siguiente");
+            siguiente.classList.add("siguiente__hab");
+
+            siguiente.addEventListener("click", ()=> {
+                document.querySelector(".juegof").remove();
+                console.log(jugando);
+                crearJuegoF(lista,jugando);
+            })
             
         
         }, {once: true})
     }else {
         opcion.addEventListener("click", ()=> {
 
-            if (cantidadError <3){
-
+            if (cantidadError <2){
                 cantidadError++;
                 const error = document.querySelector(".intentos__numero")
                 error.innerHTML = `${cantidadError}/3`;
             } else {
+                
+                cantidadError++;
+                const error = document.querySelector(".intentos__numero")
+                error.innerHTML = `${cantidadError}/3`;
+                const opciones = document.querySelectorAll(".juegof__opcion");
+            
+                opciones.forEach((opcion)=>{
+                   
+                    opcion.classList.add("opcion__deshabilitada");
+                    console.log(opcion.dataset.content);
+                    if(opcion.dataset.content == nombreCorrecto){
+                        opcion.classList.add("opcion__acertada");
+                    }else {
+                        opcion.classList.add("opcion__erronea");
+                    }
+
+                })
+
+                console.log("GAME OVER");
 
             }
         })
@@ -148,6 +178,9 @@ const crearJuegoF = (lista,jugando) => {
     if (!jugando){
         puntajeActual = 0;
         cantidadError = 0;
+        jugando = true;
+        crearPuntuacion();
+        crearVolver();
     }
 
 
@@ -192,10 +225,13 @@ const crearJuegoF = (lista,jugando) => {
     frase.className = "juegof__frase";
     frase.dataset.content = fraseCampeonCorrecto;
   
-    const op1 = crearOpcion(campeones[0], campeonCorrecto.nombre, imgCampeonCorrecto);
-    const op2 = crearOpcion(campeones[1], campeonCorrecto.nombre, imgCampeonCorrecto);
-    const op3 = crearOpcion(campeones[2], campeonCorrecto.nombre, imgCampeonCorrecto);
-    const op4 = crearOpcion(campeones[3], campeonCorrecto.nombre, imgCampeonCorrecto);
+    const op1 = crearOpcion(campeones[0], campeonCorrecto.nombre, imgCampeonCorrecto,lista,jugando);
+    const op2 = crearOpcion(campeones[1], campeonCorrecto.nombre, imgCampeonCorrecto,lista,jugando);
+    const op3 = crearOpcion(campeones[2], campeonCorrecto.nombre, imgCampeonCorrecto,lista,jugando);
+    const op4 = crearOpcion(campeones[3], campeonCorrecto.nombre, imgCampeonCorrecto,lista,jugando);
+
+    const i = document.createElement("i");
+    i.classList.add("fa-solid", "fa-arrow-right", "siguiente");
     
     contenedor.appendChild(frase);
     contenedor.appendChild(op1);
@@ -205,7 +241,10 @@ const crearJuegoF = (lista,jugando) => {
     
     section.appendChild(img);
     section.appendChild(contenedor);
-    main.appendChild(section);
+    section.appendChild(i);
+    main.insertAdjacentElement("afterbegin",section);
+
+  
 
 }
 
