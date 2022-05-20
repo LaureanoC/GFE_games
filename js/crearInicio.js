@@ -56,22 +56,46 @@ const crearInicio = () => {
             lista.push(campeon);
         })
         var jugando = false;
-        lista = sorteoServicio.mezclarLista(lista);
+        sorteoServicio.mezclarLista(lista);
+        
+        
         juegofServicios.crearJuegoF(lista,jugando);
         
-       
+        
         },1000);
     })
         
         
     
-
     const card2 = crearCardInicio(img2, "Campeón por imagen");
     card2.id = "porimagen"
     const card3 = crearCardInicio(img3, "Campeón por audio");
     card3.id = "poraudio";
 
 
+    const puntuaciones = document.createElement("section");
+    puntuaciones.className = "puntuaciones";
+    
+    const tituloP = document.createElement("h2");
+    tituloP.className = "puntuaciones__titulo"
+    tituloP.innerHTML = "Tus puntuaciones máximas"
+
+    const p = document.createElement("p");
+    p.className = "puntuaciones__parrafo"
+    p.innerHTML = `Campeón por frase:  <span style="font-weight:700">700</span>`;
+
+    const p1 = document.createElement("p");
+    p1.className = "puntuaciones__parrafo"
+    p1.innerHTML = `Campeón por imagen:  <span style="font-weight:700">0</span>`;
+
+    const p2 = document.createElement("p");
+    p2.className = "puntuaciones__parrafo"
+    p2.innerHTML = `Campeón por audio:  <span style="font-weight:700">0</span>`;
+
+    puntuaciones.appendChild(tituloP);
+    puntuaciones.appendChild(p);
+    puntuaciones.appendChild(p1);
+    puntuaciones.appendChild(p2);
 
 
     container.appendChild(titulo);
@@ -79,6 +103,7 @@ const crearInicio = () => {
     container.appendChild(card2);
     container.appendChild(card3);
     main.appendChild(container);
+    main.appendChild(puntuaciones);
 
 }
 

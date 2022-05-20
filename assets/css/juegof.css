@@ -75,7 +75,7 @@
    color:white;
 }
 
-.siguiente {
+.siguiente, .restart {
     align-self: center;
     font-size: 3rem;
     opacity: 10%;

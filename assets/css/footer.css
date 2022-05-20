@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     gap:1.2rem;
-    margin-top: 16rem;
+    
     background-color: #2E2E33;
     padding: 2.2rem;
     font-size: 1.4rem;
@@ -14,6 +14,11 @@
     color: white;
     
     text-align: center;
+}
+
+.espaciadoAbajo {
+    background-color: #2E2E33;
+    padding-bottom: 4rem;
 }
 
 .fa-brands {

@@ -1,4 +1,4 @@
-.main__container  {
+.main__container {
     width: 65%;
     margin: 0 auto;
     display: flex;
@@ -40,6 +40,33 @@
 .card__nombre {
     font-size: 1.3rem;
 }
+
+.puntuaciones{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.25rem;
+    max-width: 1920px;
+    padding:1.5rem 0;
+    margin-bottom: 2.5rem;
+}
+
+.puntuaciones__titulo {
+
+    font-size: 1.7rem;
+    flex-basis: 100%;
+    margin-bottom: 1.5rem;
+   
+}
+
+.puntuaciones__parrafo {
+
+    font-size: 1.2rem;
+    flex-basis: 100%;
+
+}
+
 
 .easeOut {
     animation-name: easeInicio;

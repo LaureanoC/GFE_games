@@ -1,5 +1,9 @@
 const mezclarLista = (lista) => {
-       return lista.sort(()=> Math.random() - 0.5);
+       lista.sort(()=> Math.random() - 0.5);
+}
+
+const mezclarArray = (lista) => {
+  return  lista.sort(()=> Math.random() - 0.5);
 }
 
 const seleccionarCampeonAleatorio = (lista) => {
@@ -23,5 +27,5 @@ const sortearOpciones = (n) => {
 
 export const sorteoServicio = {
 
-    mezclarLista, seleccionarCampeonAleatorio, seleccionarFraseAleatoria, sortearOpciones
+    mezclarLista, seleccionarCampeonAleatorio, seleccionarFraseAleatoria, sortearOpciones, mezclarArray
 }

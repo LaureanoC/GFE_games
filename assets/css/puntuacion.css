@@ -1,3 +1,22 @@
+.puntuacion__barraC {
+    width: 65%;
+    margin: 0 auto;
+    
+    max-width: 1920px;
+    background-color: #dfe4eb;
+}
+
+.barraC__barra {
+    position: relative;
+    content: attr(data-content);
+    padding: 0.7rem 0.2rem;
+    background-color: #a1defc;
+    text-align: center; 
+}
+
+
+
+
 .puntuacion__container {
     width: 65%;
     margin: 0 auto;
@@ -13,13 +32,7 @@
     color:#009E2D
 }
 
-.intentos__numero {
-    animation-name: colorPalette;
-	animation-duration: 1s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	animation-timing-function:ease;
-}
+
 
 .intentos__numero::before {
    
@@ -27,7 +40,7 @@
 
 }
 
-.intentos__numero {
+.intentos__numeroMargen {
     animation-name: colorPalette;
 	animation-duration: 1s;
 	animation-iteration-count: infinite;
