@@ -919,6 +919,175 @@
                 "https://static.wikia.nocookie.net/leagueoflegends/images/8/81/Garen_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223106&path-prefix=es",
                 "https://static.wikia.nocookie.net/leagueoflegends/images/9/9f/Garen_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223104&path-prefix=es"
             ]
+        },
+
+        {
+            "nombre":"Gnar",
+            "frases":[
+                "¡Gnar gada!",
+                "Shubbanuffa."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653102721/Jefesito%20Games/Gnar/med-gnar_nvdmer.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653102720/Jefesito%20Games/Gnar/parte-gnar_rzuwwa.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653102720/Jefesito%20Games/Gnar/med-gnardino_tidhse.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653102720/Jefesito%20Games/Gnar/parte-gnardino_a10v2e.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/3/3e/Gnar_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223110&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/0/01/Gnar_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223108&path-prefix=es    "
+            ]
+        },
+
+        {
+            "nombre":"Gragas",
+            "frases":[
+                "¡Si pagas una ronda me apunto!",
+                "Sí, sí..."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653102928/Jefesito%20Games/Gragas/med-gragas_pxwz3s.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653102928/Jefesito%20Games/Gragas/parte-gragas_l1ichg.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653102928/Jefesito%20Games/Gragas/med-gragasgranja_d2lekp.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653102928/Jefesito%20Games/Gragas/parte-gragasgranja_l6q3ax.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/4/4f/Gragas_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223114&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/a/ae/Gragas_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223112&path-prefix=es"
+            ]
+        },
+        {
+            "nombre":"Graves",
+            "frases":[
+                "Condenado a muerte.",
+                "Se acabó el trayecto."
+                
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103004/Jefesito%20Games/Graves/med-graves_sxxcpi.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103004/Jefesito%20Games/Graves/parte-graves_cvpcwe.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103004/Jefesito%20Games/Graves/med-gravesescu_eoerjb.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103004/Jefesito%20Games/Graves/parte-gravesescu_ikc4zj.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/0/0a/Graves_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223119&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/5/5c/Graves_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223116&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Gwen",
+            "frases":[
+                "Frente en alto, espalda recta, tijeras listas.",
+                "¿Por qué no? mis tijeras no muerden."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103207/Jefesito%20Games/Gwen/med-gwen_xrdhiq.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103207/Jefesito%20Games/Gwen/parte-gwen_kp5d1y.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103207/Jefesito%20Games/Gwen/med-gwencu_ujoqwq.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103207/Jefesito%20Games/Gwen/parte-gwencu_kulgcx.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/1/12/Gwen_-_Seleccion_LATAM.ogg/revision/latest?cb=20210517231657&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/b/b3/Gwen_-_Bloqueo_LATAM.ogg/revision/latest?cb=20210517231655&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Hecarim",
+            "frases":[
+                "Contemplen el poder de las Islas de la Sombra.",
+                "Nunca descanso."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103267/Jefesito%20Games/Hecarim/med-hecarim_s8ohle.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103266/Jefesito%20Games/Hecarim/parte-hecarim_fntsu1.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103266/Jefesito%20Games/Hecarim/med-hecarimestrella_m1usg0.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103266/Jefesito%20Games/Hecarim/parte-hecarimestrella_bcs06l.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/f/f7/Hecarim_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223123&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/c/c4/Hecarim_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223121&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Heimerdinger",
+            "frases":[
+                "Ciertamente una elección sabia.",
+                "Pero qué contundente."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103469/Jefesito%20Games/Heimerdinger/med-heimerdinger_pgl0ty.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103468/Jefesito%20Games/Heimerdinger/parte-heimerdinger_xgwf2i.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103468/Jefesito%20Games/Heimerdinger/med-heimerdingerbee_hlwxv5.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103469/Jefesito%20Games/Heimerdinger/parte-heimerdingerbee_b610nm.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/0/02/Heimerdinger_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223127&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/b/bf/Heimerdinger_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223125&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Illaoi",
+            "frases":[
+                "Yo no me ando con sermones, los huesos rotos son el mejor maestro.",
+                "La vida es demasiado corta para tener miedo."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103608/Jefesito%20Games/Illaoi/med-illaoi_wrkugs.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103608/Jefesito%20Games/Illaoi/med-illaoi_wrkugs.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103607/Jefesito%20Games/Illaoi/med-illaoivacio_nimm52.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653103607/Jefesito%20Games/Illaoi/parte-illaoivacio_pjt7o3.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/c/cc/Illaoi_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223134&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/3/38/Illaoi_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223130&path-prefix=es"
+            
+            ]
         }
 
 
