@@ -792,6 +792,133 @@
                 "https://static.wikia.nocookie.net/leagueoflegends/images/d/d4/Fiddlesticks_Frase0069_es_MX.ogg/revision/latest?cb=20200407012250&path-prefix=es",
                 "https://static.wikia.nocookie.net/leagueoflegends/images/0/0c/Fiddlesticks_Original_Move_14.ogg/revision/latest?cb=20200318212224"
             ]
+        },
+
+        {
+            "nombre":"Fiora",
+            "frases":[
+                "Quiero encontrar un digno oponente.",
+                "Qué pena me das."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653098237/Jefesito%20Games/Fiora/med-fiora_ks4oek.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653098237/Jefesito%20Games/Fiora/parte-fiora_vkc8e3.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653098238/Jefesito%20Games/Fiora/med-fiorafu_vm7rgy.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653098237/Jefesito%20Games/Fiora/parte-fiorafu_pt39gs.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/e/e5/Fiora_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223049&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/d/d0/Fiora_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223045&path-prefix=es"
+                
+            ]
+        },
+
+        {
+            "nombre":"Fizz",
+            "frases":[
+                "¡Déjamelos a mí!",
+                "Hacia las profundidades."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653098562/Jefesito%20Games/Fizz/med-fizz_obsj9k.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653098561/Jefesito%20Games/Fizz/parte-fizz_fvhfiz.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653098561/Jefesito%20Games/Fizz/med-fizzco_uyupcs.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653098561/Jefesito%20Games/Fizz/parte-fizzco_p8jl5v.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/f/fb/Fizz_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223051&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/7/77/Fizz_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223053&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Galio",
+            "frases":[
+                "Es hora de dejarlos impactados.",
+                "De regreso a dormir."
+                
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653098823/Jefesito%20Games/Galio/med-galio_mdoucn.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653098819/Jefesito%20Games/Galio/parte-galio_nej2av.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653098819/Jefesito%20Games/Galio/med-galioruni_pfa6qh.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653098819/Jefesito%20Games/Galio/parte-galioruni_hax2pa.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/e/e2/Galio_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223058&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/2/2c/Galio_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223056&path-prefix=es"
+                
+            ]
+        },
+
+        {
+            "nombre":"Gangplank",
+            "frases":[
+                "Ni las llamas ni las profundidades pudieron reclamarme.",
+                "Volveré más fuerte.",
+                "Recuperaré mi isla a punta de sable y fuego.",
+                "Cuélguenlos en los muelles del matadero."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653100367/Jefesito%20Games/Gangplank/med-gangplank_npnjti.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653100367/Jefesito%20Games/Gangplank/parte-gangplank_af1grk.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653100367/Jefesito%20Games/Gangplank/med-gangplankfuerzas_dc5hqz.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653100367/Jefesito%20Games/Gangplank/parte-gangplankfuerzas_f8b6zl.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/2/28/Gangplank_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223102&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/6/60/Gangplank_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223100&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/d/de/Gangplank_0032_es_MX.ogg/revision/latest?cb=20210606225903&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/0/0d/Gangplank_0094_es_MX.ogg/revision/latest?cb=20210606230100&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Garen",
+            "frases":[
+                "¡Mi corazón y espada siempre por Demacia!",
+                "El miedo es el primero de muchos enemigos"
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653100640/Jefesito%20Games/Garen/med-garen_yvjefv.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653100640/Jefesito%20Games/Garen/parte-garen_yvbzep.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653100640/Jefesito%20Games/Garen/med-garenL_z5lkrl.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653100640/Jefesito%20Games/Garen/parte-garenL_kdzcy3.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/8/81/Garen_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223106&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/9/9f/Garen_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223104&path-prefix=es"
+            ]
         }
 
 
