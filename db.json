@@ -482,7 +482,214 @@
                 "https://static.wikia.nocookie.net/leagueoflegends/images/f/f4/Camille_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220222949&path-prefix=es",
                 "https://static.wikia.nocookie.net/leagueoflegends/images/0/01/Camille_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220222947&path-prefix=es"
             ]
+        },
+
+        {
+            "nombre":"Cassiopeia",
+            "frases":[
+                "No existe antídoto contra mí.",
+                "Piensa en todo lo que te puedo ofrecer."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653089578/Jefesito%20Games/Cassiopeia/med-cassiopeia_s2vtlz.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653089578/Jefesito%20Games/Cassiopeia/parte-cassiopeia_jqb6ex.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653089578/Jefesito%20Games/Cassiopeia/med-cassiopeiaC_ao0zwb.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653089578/Jefesito%20Games/Cassiopeia/parte-cassiopeiaC_evy6nj.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/c/c0/Cassiopeia_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220222953&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/0/00/Cassiopeia_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220222951&path-prefix=es"
+               
+            ]
+        },
+
+        {
+            "nombre":"Cho'Gath",
+            "frases":[
+                "¡Deseas ver el fin del mundo que conoces! Sí...",
+                "No escaparás.",
+                "¡La luz del día! ¡Quema!",
+                "¡Los invadiré en terror!"
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653090093/Jefesito%20Games/Cho%27Gath/med-chogath_usn3eq.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653090092/Jefesito%20Games/Cho%27Gath/parte-chogath_qku2ke.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653090092/Jefesito%20Games/Cho%27Gath/med-chogathbli_ocsb2m.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653090095/Jefesito%20Games/Cho%27Gath/parte-chogathbli_j0k3la.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/0/0c/ChoGath_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220222957&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/5/52/ChoGath_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220222955&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/7/79/ChoGath_0074_es_MX.ogg/revision/latest?cb=20210604031415&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/9/93/ChoGath_0079_es_MX.ogg/revision/latest?cb=20210604031427&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Corki",
+            "frases":[
+                "¡Listo para destruir con mi máquina brutal!",
+                "¡Hecho la mocha!",
+                "¡No son enchiladas!",
+                "¡Esto te demostrará que no eres más que un Whisky Delta!"
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653090670/Jefesito%20Games/Corki/med-corki_uydzsr.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653090670/Jefesito%20Games/Corki/parte-corki_j0yrhq.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653090724/Jefesito%20Games/Corki/med-corkianio_q3o4xk.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653090670/Jefesito%20Games/Corki/parte-corkianio_wdgfek.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/5/57/Corki_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223004&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/b/b0/Corki_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220222959&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/d/de/Corki_0022_es_MX.ogg/revision/latest?cb=20210609015422&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/c/c3/Corki_0001_es_MX.ogg/revision/latest?cb=20210609015332&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Darius",
+            "frases":[
+                "Solo yo lograré que lleguemos a la victoria.",
+                "No toleraré la cobardía."
+               
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653091643/Jefesito%20Games/Darius/med-darius_tw608v.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653091643/Jefesito%20Games/Darius/parte-darius_n0d6na.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653091643/Jefesito%20Games/Darius/med-dariusg_ttluho.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653091643/Jefesito%20Games/Darius/parte-dariusg_xifu03.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/9/97/Darius_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223014&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/6/65/Darius_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223006&path-prefix=es"
+                
+            ]
+        },
+
+        {
+            "nombre":"Diana",
+            "frases":[
+                "Una nueva luna se asoma.",
+                "¡Esclavos ignorantes!"
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653092789/Jefesito%20Games/Diana/med-diana_y6gywp.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653092788/Jefesito%20Games/Diana/parte-diana_wqw2qw.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653092789/Jefesito%20Games/Diana/med-dianat_row5au.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653092788/Jefesito%20Games/Diana/parte-dianal_g6dyqi.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/4/4a/Diana_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223019&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/1/1d/Diana_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223017&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Dr.Mundo",
+            "frases":[
+                "El doctor estar... eh... listo.",
+                "Yo cobrar cuota de cancelación."
+                
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653093459/Jefesito%20Games/Dr.Mundo/med-drmundo_ajkypl.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653093459/Jefesito%20Games/Dr.Mundo/parte-drmundo_wnh8nr.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653093459/Jefesito%20Games/Dr.Mundo/med-drmundoE_sqjfcz.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653093459/Jefesito%20Games/Dr.Mundo/parte-drmundoE_vkrsie.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/c/c7/DrMundo_-_Seleccion_LATAM.ogg/revision/latest?cb=20210826234623&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/5/57/DrMundo_-_Bloqueo_LATAM.ogg/revision/latest?cb=20210826234620&path-prefix=es"
+            ]
+        }, 
+
+        {
+            "nombre":"Draven",
+            "frases":[
+                "Bienvenidos a League of Draven.",
+                "Draven fuera."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653094052/Jefesito%20Games/Draven/med-draven_ztromz.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653094052/Jefesito%20Games/Draven/parte-draven_s7w4gk.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653094052/Jefesito%20Games/Draven/med-draveng_lsqi18.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653094052/Jefesito%20Games/Draven/parte-dravengal_jrzych.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/2/2e/Draven_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223023&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/2/28/Draven_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223021&path-prefix=es"
+                
+            ]
+        },
+
+        {
+            "nombre":"Ekko",
+            "frases":[
+                "No importa cuanto tiempo tengas, si no como lo usas.",
+                "Antes eras chévere."
+                
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653094444/Jefesito%20Games/Ekko/med-ekko_vygf4f.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653094444/Jefesito%20Games/Ekko/parte-ekko_ndammi.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653094444/Jefesito%20Games/Ekko/med-ekkob_s7o9zx.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653094447/Jefesito%20Games/Ekko/parte-ekkob_bnsq6m.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/4/4e/Ekko_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223025&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/2/2d/Ekko_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223027&path-prefix=es"
+            ]
         }
+
 
 
 
