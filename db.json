@@ -1088,7 +1088,212 @@
                 "https://static.wikia.nocookie.net/leagueoflegends/images/3/38/Illaoi_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223130&path-prefix=es"
             
             ]
+        },
+
+        {
+            "nombre":"Irelia",
+            "frases":[
+                "¡Lucha por las Tierras Originarias!",
+                "No hagas daño a nadie a menos que amenacen tu hogar.",
+                "Sé la líder que necesitan.",
+                "Mi danza consta de 42 formas distintas. Ellos solo verán una."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653105598/Jefesito%20Games/Irelia/med-irelia_da0lny.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653105598/Jefesito%20Games/Irelia/parte-irelia_sxomwt.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653105598/Jefesito%20Games/Irelia/med-ireliahielo_tavepn.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653105598/Jefesito%20Games/Irelia/parte-ireliahielo_kxf8u4.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/3/3a/Irelia_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223138&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/b/bf/Irelia_Original_Movimiento_19_es_MX.ogg/revision/latest?cb=20220404212827&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/3/30/Irelia_Original_Movimiento_41_es_MX.ogg/revision/latest?cb=20220404212828&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/1/17/Irelia_Original_Movimiento_42_es_MX.ogg/revision/latest?cb=20220404212828&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Ivern",
+            "frases":[
+                "Mi color favorito es la primavera.",
+                "No me molesta perderme esta partida."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653105725/Jefesito%20Games/Ivern/med-ivern_qbvnss.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653105725/Jefesito%20Games/Ivern/parte-ivern_peqbhk.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653105725/Jefesito%20Games/Ivern/med-ivernroj_nn961x.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653105725/Jefesito%20Games/Ivern/parte-ivernroj_hyvetb.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/7/76/Ivern_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223142&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/f/f7/Ivern_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223140&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Janna",
+            "frases":[
+                "La tempestad está a tu servicio.",
+                "Como tu quieras."
+                
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653105841/Jefesito%20Games/Janna/med-janna_nydwly.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653105841/Jefesito%20Games/Janna/parte-janna_on41na.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653105842/Jefesito%20Games/Janna/med-jannahallo_sdmgts.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653105841/Jefesito%20Games/Janna/parte-jannahallo_h5dd8j.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/2/28/Janna_selecci%C3%B3n.ogg/revision/latest?cb=20181015024157&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/0/0b/Janna.movimiento1.ogg/revision/latest?cb=20181015022919&path-prefix=es"
+                
+            ]
+        },
+
+        {
+            "nombre":"Jarvan IV",
+            "frases":[
+                "Por mi voluntad esto terminará.",
+                "¿Quién osa desafiar mi voluntad?"
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653105891/Jefesito%20Games/Jarvan%20IV/med-jarvaniv_bhnced.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653105891/Jefesito%20Games/Jarvan%20IV/parte-jarvaniv_c03ena.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653105891/Jefesito%20Games/Jarvan%20IV/med-jarvanivcuale_nd5big.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653105891/Jefesito%20Games/Jarvan%20IV/parte-jarvanivcuale_yc3fop.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/7/74/JarvanIV_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223147&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/7/76/JarvanIV_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223145&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Jax",
+            "frases":[
+                "¡Hagámoslo!",
+                "¡Me toca a mi!"
+                
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653106121/Jefesito%20Games/Jax/med-jax_z2elvy.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653106121/Jefesito%20Games/Jax/parte-jax_exdsxj.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653106121/Jefesito%20Games/Jax/med-jaxilu_zhke5o.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653106121/Jefesito%20Games/Jax/parte-jaxilu_j0tqod.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/f/f0/Jax_-_Seleccion_LATAM.ogg/revision/latest?cb=20200314050200&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/1/1b/Jax_-_Bloqueo_LATAM.ogg/revision/latest?cb=20200314050222&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Jayce",
+            "frases":[
+                "Lucho por un mañana mejor.",
+                "Nunca miro atrás."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653106189/Jefesito%20Games/Jayce/med-jayce_azcgcv.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653106189/Jefesito%20Games/Jayce/parte-jayce_yz6n7o.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653106190/Jefesito%20Games/Jayce/med-jaycegallardo_hcs6c9.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653106189/Jefesito%20Games/Jayce/parte-jaycegallardo_zx4jrt.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/b/b9/Jayce_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223151&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/3/3c/Jayce_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223149&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Jhin",
+            "frases":[
+                "Mi genio florece en la masacre, como un lirio al amanecer.",
+                "Algún día mi genialidad será... comprendida.",
+                "Me pongo nervioso antes de cada función, pero necesito sentirlo.",
+                "¡Cuatro!"
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653106474/Jefesito%20Games/Jhin/med-jhin_iqepoj.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653106474/Jefesito%20Games/Jhin/parte-jhin_rnuaxu.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653106474/Jefesito%20Games/Jhin/med-jhinestrella_duplj2.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653106474/Jefesito%20Games/Jhin/parte-jhinestrella_mu5krr.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/5/5d/Jhin.selecci%C3%B3n.ogg/revision/latest?cb=20181212081049&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/1/1f/Jhin.bloqueo.ogg/revision/latest?cb=20181212081226&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/d/db/Jhin_0165_es_MX.ogg/revision/latest?cb=20181210185313&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/2/28/Jhin_0127_es_MX.ogg/revision/latest?cb=20181210185220&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Jinx",
+            "frases":[
+                "Las reglas se hicieron para romperse, como los edificios, o la gente.",
+                "¡Ay por favor! ¿Qué es lo peor que podría pasar?"
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653106574/Jefesito%20Games/Jinx/med-jinx_uyvte2.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653106574/Jefesito%20Games/Jinx/parte-jinx_lqplrf.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653106574/Jefesito%20Games/Jinx/med-jinxarcane_urqvry.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653106574/Jefesito%20Games/Jinx/parte-jinxarcane_jbgzvd.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/b/bf/Jinx_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223155&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/7/76/Jinx_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223153&path-prefix=es"
+            ]
         }
+
+
 
 
 
