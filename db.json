@@ -688,6 +688,110 @@
                 "https://static.wikia.nocookie.net/leagueoflegends/images/4/4e/Ekko_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223025&path-prefix=es",
                 "https://static.wikia.nocookie.net/leagueoflegends/images/2/2d/Ekko_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223027&path-prefix=es"
             ]
+        },
+
+        {
+            "nombre":"Elise",
+            "frases":[
+                "Solo la araña está a salvo en su tela.",
+                "¡Necios sin voluntad!"
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653095997/Jefesito%20Games/Elise/med-elise_l3kkrc.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653095998/Jefesito%20Games/Elise/parte-elise_ywaxdw.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653095997/Jefesito%20Games/Elise/med-elisehallo_mzwqfd.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653095999/Jefesito%20Games/Elise/parte-elisehallo_rqtnpc.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/b/bf/Elise_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223031&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/0/04/Elise_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223029&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Evelynn",
+            "frases":[
+                "Sabes que me deseas.",
+                "Una vez más una mujer se retira insatisfecha.",
+                "Una vez un hombre me dijo que usara más ropa. Así que me vestí con su piel.",
+                "Si no existiera dolor, ¿cómo conocerían el placer?"
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653096629/Jefesito%20Games/Evelynn/med-evelynn_ti5ajd.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653096629/Jefesito%20Games/Evelynn/parte-evelynn_lw7c91.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653096629/Jefesito%20Games/Evelynn/med-evelynnkda_cd1ecl.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653096629/Jefesito%20Games/Evelynn/parte-evelynnkda_hrzkti.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/c/c1/Evelynn_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223035&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/c/c1/Evelynn_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223035&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/6/6e/Evelynn_0279_es_MX.ogg/revision/latest?cb=20210530205602&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/9/9f/Evelynn_0072_es_MX.ogg/revision/latest?cb=20210530204649&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Ezreal",
+            "frases":[
+                "¡Misión aceptada! espera ¿a dónde vamos?",
+                "Oye tú te lo pierdes, pero lo entiendo."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653096913/Jefesito%20Games/Ezreal/med-ezreal_wzdadh.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653096915/Jefesito%20Games/Ezreal/parte-ezreal_qhmtln.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653096913/Jefesito%20Games/Ezreal/med-ezrealn_veds9w.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653096913/Jefesito%20Games/Ezreal/parte-ezrealn_rvgb6d.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/0/0e/Ezreal_-_Seleccion_LATAM.ogg/revision/latest?cb=20201220223039&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/b/b3/Ezreal_-_Bloqueo_LATAM.ogg/revision/latest?cb=20201220223037&path-prefix=es"
+            ]
+        },
+
+        {
+            "nombre":"Fiddlesticks",
+            "frases":[
+                "No tengas miedo. No te haré daño.  ",
+                "Estoy perdido. ¿Alguien puede ayudarme?",
+                "Por el huerto, por el sendero, voces de muertos, ¡voces de miedo!",
+                "No han regresado de los huertos. Ya pasaron tres días."
+            ],
+            "imagen": [
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653097363/Jefesito%20Games/Fiddlesticks/med-fiddlesticks_fwmvx1.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653097365/Jefesito%20Games/Fiddlesticks/parte-fiddlesticks_okfcfx.png"
+                ],
+
+                [
+                    "https://res.cloudinary.com/laureano/image/upload/v1653097366/Jefesito%20Games/Fiddlesticks/med-fiddlesticksfiesta_uae9em.png",
+                    "https://res.cloudinary.com/laureano/image/upload/v1653097363/Jefesito%20Games/Fiddlesticks/parte-fiddlesticksfiesta_dk1no7.png"
+                ]
+            ],
+            
+            "audios":[
+                "https://static.wikia.nocookie.net/leagueoflegends/images/6/60/Fiddlesticks_Original_FirstMove_0.ogg/revision/latest?cb=20200318212051",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/2/24/Fiddlesticks_Frase0111_es_MX.ogg/revision/latest?cb=20200407015228&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/d/d4/Fiddlesticks_Frase0069_es_MX.ogg/revision/latest?cb=20200407012250&path-prefix=es",
+                "https://static.wikia.nocookie.net/leagueoflegends/images/0/0c/Fiddlesticks_Original_Move_14.ogg/revision/latest?cb=20200318212224"
+            ]
         }
 
 
